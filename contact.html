@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>NIRMAL RAJAA | CONTACT</title>
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="name">
+        <h1 style="text-align:center;text-decoration: underline; font-family: "Russo One", sans-serif;">Contact</h1>
+</div>
+</head>
+<style>input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin: 50px 200px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .cont {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 20%;
+    margin-left: 50px 50px;
+    margin: 0px 50px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 1%;
+      
+    }
+  }</style>
+<body>
+    <body>
+        <ul class="ul2">
+          <li><img class="mypic3" style="float:left;" src="/mywebpic.jpeg" width="100%" height="100%"></li>
+          <li><a class="home3" href="/index.html">Home</a></li>
+          <li><a class="fok3" href="/fok.html">Field Of Knowledge</a></li>
+          <li><a class="contact3" href="/contact.html">Contact</a></li>
+        </ul>
+        </div>
+        </body>
+        <div class="cont">
+            <div style="text-align:center">
+              <h2>Contact Us</h2>
+              <p style="font-size: 20px;">Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <div class="row">
+              <div class="column">
+              </div>
+              <div class="column">
+                <form action="mailto:nirmalrajaa20@gmail.com?subject=Interested to have a coffee with you!"
+                enctype="text/plain"
+                    method="post">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="Firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="Lastname" placeholder="Your last name..">
+                  <label for="country">Country</label>
+                  <select id="country" Name="Country">
+                    <option value="TN">TAMIL NADU</option>
+                    <option value="OTHER">OTHER THAN SOUTH INDIA</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="Subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+        <footer><h1 style="text-align: center;">Made with ❤️ in India</h1></footer>
+</html>
